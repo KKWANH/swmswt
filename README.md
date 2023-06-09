@@ -22,7 +22,7 @@
 5. count에 총 실행 횟수를 적어주세요.
 6. `sudo python3 swmsweets.macro.py`를 통해 실행해주세요. 윈도우의 경우 명령어가 다를 수 있습니다.
 
-0. 오류가 발생한다면 kwanho0096@gmail.com으로 문의주세요.
+- 오류가 발생한다면 kwanho0096@gmail.com으로 문의주세요.
 
 ## 기술 스택
 - `Python`

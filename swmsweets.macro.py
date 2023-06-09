@@ -6,9 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # @TODO 환경에 맞게 변수를 커스텀해주세요.
-folder = '/Users/kimkwanho/Documents/swmsweetsmacro'
-chromedriver = 'chromedriver_mac64/chromedriver'
-count = 100
+folder = 'PUT YOUR DIRECTORY HERE'
+chromedriver = 'PUT YOUR CHROMEDRIVER HERE'
+count = 0
 
 # Chrome 옵션 생성 및 웹 드라이버 초기화
 path = f'{folder}/{chromedriver}'
