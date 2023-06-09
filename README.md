@@ -19,6 +19,8 @@
    - 크롬 버전을 확인합니다.
    - [ChromeDriver 다운로드 페이지](https://sites.google.com/chromium.org/driver/downloads?authuser=0)에 접속하여 운영 체제와 크롬 버전에 맞는 `chromedriver`를 다운로드합니다.
    - 3번의 `chromedriver` 경로를 수정합니다.
+5. count에 총 실행 횟수를 적어주세요.
+0. 오류가 발생한다면 kwanho0096@gmail.com으로 문의주세요.
 
 ## 기술 스택
 - `Python`
