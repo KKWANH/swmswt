@@ -5,11 +5,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# 현재 폴더 위치 넣기
+# @TODO 환경에 맞게 변수를 커스텀해주세요.
 folder = '/Users/kimkwanho/Documents/swmsweetsmacro'
+chromedriver = 'chromedriver_mac64/chromedriver'
 
 # Chrome 옵션 생성 및 웹 드라이버 초기화
-path = f'{folder}/chromedriver_mac64/chromedriver'  # 크롬 드라이버 경로를 지정해야 합니다.
+path = f'{folder}/{chromedriver}'
 
 # 카운트 변수
 success = 0
@@ -40,7 +41,7 @@ for i in range(count):
     # 완료 카운트
     if current_url[-6:] == "share/":
         print("성공 :", current_url[-6:])
-        success += 1
+        success += 1 
     else:
         print("실패 :", current_url[-6:])
         failure += 1
